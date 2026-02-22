@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kgarose Kgarose</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/Kgarose-logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav-minimal">
+    <div class="logo">
+      <img src="images/Kgarose-logo.jpg" alt="Kgarose Logo" />
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recognition.html">About us</a></li>
+      <li><a href="potayoga.html"> Products</a></li>
+      <li><a href="contact.html">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <main class="product-page">
+    <section class="product-intro">
+      <div class="text">
+        <h1>PotaYoga</h1>
+        <p>Refreshing, nutritious sweet potato yoghurt drink, naturally creamy and full of wholesome goodness. Perfect for breakfast, a snack, or anytime you need a nourishing boost.</p>
+      </div>
+      <div class="image-container">
+        <img src="images/kgarosekgarose25.jpg" alt="PotaYoga Drink">
+        <div class="overlay-text">Naturally Nutritious</div>
+      </div>
+    </section>
+
+    <section class="flavors">
+      <h2>Flavors to Delight Your Taste Buds</h2>
+      <div class="flavor-cards">
+        <div class="flavor-card">
+          <img src="images/apricot-potayoga.jpg" alt="Apricot Glow">
+          <div class="flavor-text">
+            <h3>Apricot </h3>
+            <p>Subtle tang of apricot blends with smooth yoghurt base. Rich in antioxidants.</p>
+          </div>
+        </div>
+
+        <div class="flavor-card">
+          <img src="images/potayoga-Strawberry.jpg" alt="Strawberry Fresh">
+          <div class="flavor-text">
+            <h3>Strawberry </h3>
+            <p>Sweet strawberries meet creamy sweet potato. Vitamin C boost and refreshing taste.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <h2>Why PotaYoga?</h2>
+      <div class="benefit-cards">
+        <div class="benefit-card">
+          <h3>Nutrient-Rich</h3>
+          <p>Contains vitamins A & C, potassium, and antioxidants for immunity, eye, and skin health.</p>
+        </div>
+
+        <div class="benefit-card">
+          <h3>Sustained Energy</h3>
+          <p>Natural carbohydrates provide slow-release energy for workouts or busy days.</p>
+        </div>
+
+        <div class="benefit-card">
+          <h3>Supports Local Farming</h3>
+          <p>Sourced from local sweet potatoes to enhance rural livelihoods and community growth.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="enjoy">
+      <h2>How to Enjoy</h2>
+      <ul>
+        <li>Serve chilled — best straight from the fridge.</li>
+        <li>Pair with granola or fresh fruit for a balanced breakfast.</li>
+        <li>Add a dash of cinnamon or honey for extra flavor.</li>
+        <li>Mix with fresh fruit for a nutritious smoothie bowl.</li>
+      </ul>
+    </section>
+
+    <section class="related-products">
+      <h2 class="related-title">You Might Also Like</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <a href="fresh-sip.html" class="product-image">
+            <img src="images/fresh-sip.jpeg" alt="Fresh Sip Tropical">
+          </a>
+          <h3>FRESH SIP JUICE</h3>
+          <p>Refreshing fruit blend for active lifestyles.</p>
+          <a href="fresh-sip.html" class="product-btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="images/Kgarose-logo.jpg" alt="Kgarose Logo">
+        <p>Growing Forward — Bringing taste and health to every generation.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recognition.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="gallery.html">Our gallery</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="potayoga.html">Potayoga yoghurt</a></li>
+          <li><a href="fresh-sip.html">Fresh Sip Tropical</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="http://www.kgarosekgaros.co.za"><img src="images/logo-website.jpg" alt="Website"></a>
+          <a href="https://www.facebook.com/p/Kgarose-Kgaros-Pty-Ltd-100063749896229/"><img src="images/facebook-logo.png" alt="Facebook"></a>
+          <a href="https://za.linkedin.com/in/edward-kgarose-4492201ba"><img src="images/logo-linkedin-icon-1536.png" alt="Linkedin"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 KgaroseKgaros. All Rights Reserved.</p>
+      <p>Designed and developed by <a href="https://stepupenhle.co.za" target="_blank">StepupEnhle</a></p>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="" alt="Full View">
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.getElementById("navLinks");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        hamburger.classList.toggle("open");
+      });
+
+      document.querySelectorAll('.flavor-card img').forEach(img => {
+        img.addEventListener('click', () => {
+          const lightbox = document.getElementById('lightbox');
+          const lightboxImg = lightbox.querySelector('.lightbox-img');
+          lightboxImg.src = img.src;
+          lightbox.style.display = 'flex';
+        });
+      });
+
+      document.querySelector('.lightbox .close').addEventListener('click', () => {
+        document.getElementById('lightbox').style.display = 'none';
+      });
+
+      document.getElementById('lightbox').addEventListener('click', e => {
+        if (e.target === e.currentTarget) {
+          e.currentTarget.style.display = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
